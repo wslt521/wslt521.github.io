@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta http-equiv="Expires" content="-1" />
+		<meta http-equiv="Cache-Control" content="no-cache" />
+		<meta http-equiv="Pragma" content="no-cache" />		
+		<title>康师傅</title>		
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<script type="text/javascript">
+			(function (doc, win) {
+       		var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                if(clientWidth>=640){
+                    docEl.style.fontSize = '100px';
+                }else{
+                    docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+                }
+            };
+
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+		</script>
+	</head>
+	<body>
+		<div class="main_mc">
+			<div class="top">
+				<div class="topMenu">
+					<div><a href="javascript:;" ><img src="img/home.png"/></a></div>					
+					<div>
+						<a href="javascript:;"><img src="img/shdz_icon.png"/></a>
+						<a href="javascript:;"><img src="img/dhjl_icon.png"/></a>
+						<a href="javascript:;"><img src="img/gou_icon.png"/></a>
+					</div>
+				</div>
+			</div>
+			<div class="search">
+				<div class="search_con">
+					<a href="city.html">深圳</a>
+					<div>
+						<span>筛选积分礼物</span>
+						<span><input type="text" name="" id="" value="" /></span>
+						<span><input type="text" name="" id="" value="" /></span>
+						<span><a href="javascript:;"><img src="img/search_icon.png"/></a></span>						
+					</div>					
+				</div>
+			</div>
+			<div class="cj_tip">
+				<a href="choujiang.html"><img src="img/cj_tip.jpg"/></a>
+			</div>
+			<div class="list_item">
+				<div class="item_con">
+					<div><img src="img/product.png"/></div>
+					<div>康师傅冰红茶</div>
+					<div><span>150</span>积分</div>
+					<div><a href="duihuan.html">马上兑换</a></div>
+				</div>
+				<div class="item_con">
+					<div><img src="img/product.png"/></div>
+					<div>康师傅冰红茶</div>
+					<div><span>150</span>积分</div>
+					<div><a href="duihuan.html">马上兑换</a></div>
+				</div>
+				<div class="item_con">
+					<div><img src="img/product.png"/></div>
+					<div>康师傅冰红茶</div>
+					<div><span>150</span>积分</div>
+					<div><a href="duihuan.html">马上兑换</a></div>
+				</div>
+				<div class="item_con">
+					<div><img src="img/product.png"/></div>
+					<div>康师傅冰红茶</div>
+					<div><span>150</span>积分</div>
+					<div><a href="duihuan.html">马上兑换</a></div>
+				</div>
+
+			</div>
+		</div>
+	</body>
+</html>
